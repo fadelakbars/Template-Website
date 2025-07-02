@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Praktikum SMK</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Selamat Datang di Website Kami</h1>
+                    <p class="lead mb-4">Ini adalah template sederhana yang bisa dimodifikasi untuk berbagai keperluan.</p>
+                    <a href="#about" class="btn btn-primary btn-lg">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="images/hero.jpeg" alt="Hero Image" class="img-fluid rounded w-50">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Galeri Kami</h2>
+                <p class="lead">Kumpulan foto atau karya yang ingin ditampilkan</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/dua.jpeg" class="card-img-top" alt="Gallery Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Gambar 1</h5>
+                            <p class="card-text">Deskripsi singkat tentang gambar ini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/hero.jpeg" class="card-img-top" alt="Gallery Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Gambar 2</h5>
+                            <p class="card-text">Deskripsi singkat tentang gambar ini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <img src="images/satu.jpeg" class="card-img-top" alt="Gallery Image 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Judul Gambar 3</h5>
+                            <p class="card-text">Deskripsi singkat tentang gambar ini.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Tentang Website</h5>
+                    <p>Ini adalah footer yang bisa diisi dengan informasi tambahan tentang website, sekolah, atau pemilik website.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Link Cepat</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#about" class="text-white">Tentang</a></li>
+                        <li><a href="#gallery" class="text-white">Galeri</a></li>
+                        <li><a href="#contact" class="text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Kontak Kami</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Alamat lengkap</li>
+                        <li><i class="fas fa-phone me-2"></i> (021) 12345678</li>
+                        <li><i class="fas fa-envelope me-2"></i> email@contoh.com</li>
+                    </ul>
+                    <div class="social-icons mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Nama Sekolah/Perusahaan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
