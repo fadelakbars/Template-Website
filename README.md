@@ -1,8 +1,3 @@
-# Dokumentasi Template Website untuk Praktikum SMK
-
-## 📋 Panduan Penggunaan Template
-
-Template ini dirancang untuk membantu siswa SMK dalam mempelajari pembuatan website dengan HTML, CSS, dan Bootstrap. Berikut langkah-langkah untuk memodifikasi template sesuai kebutuhan Anda.
 
 ## 🛠️ Langkah-langkah Pengeditan
 
