@@ -55,19 +55,6 @@ Ganti dengan:
 2. Ganti `nama-file-gambar-anda.jpg` dengan nama file gambar Anda
 3. Sesuaikan `alt` dengan deskripsi gambar
 
-#### b. Gambar About Section
-```html
-<img src="https://via.placeholder.com/600x400" alt="About Image" class="img-fluid rounded">
-```
-Ganti dengan gambar Anda seperti contoh di atas
-
-### 4. **Mengedit Bagian Tentang**
-```html
-<h2 class="fw-bold mb-4">Tentang Kami</h2>
-<p>Ini adalah bagian tentang...</p>
-```
-Ganti dengan deskripsi tentang diri Anda, sekolah, atau organisasi
-
 ### 5. **Mengedit Galeri**
 
 #### a. Mengganti Gambar Galeri
@@ -124,28 +111,3 @@ body {
     font-family: 'NamaFont', sans-serif;
 }
 ```
-
-## 💡 Tips untuk Siswa
-1. Selalu backup file sebelum melakukan perubahan besar
-2. Gunakan komentar di HTML/CSS untuk menandai bagian yang sudah dimodifikasi
-3. Test perubahan di berbagai ukuran layar (desktop, tablet, mobile)
-4. Untuk website sekolah, tambahkan bagian:
-   - Visi Misi
-   - Ekstrakurikuler
-   - Prestasi
-5. Untuk portfolio pribadi, tambahkan:
-   - Skill/Kemampuan
-   - Pengalaman
-   - Project yang pernah dikerjakan
-
-## 🔧 Troubleshooting
-- Gambar tidak muncul? Periksa:
-  - Nama file dan path sudah benar
-  - Ekstensi file (.jpg/.png) sesuai
-  - File gambar benar-benar ada di folder `images/`
-- Tampilan berantakan? Periksa:
-  - Tag HTML yang tidak tertutup dengan benar
-  - Class yang salah ketik
-  - Konsistensi penggunaan Bootstrap
-
-Semangat berkreasi! 🚀
