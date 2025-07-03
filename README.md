@@ -65,20 +65,6 @@ Ganti dengan gambar Anda di folder `images/`
 ```
 Ganti dengan judul dan deskripsi yang sesuai
 
-### 6. **Mengedit Bagian Kontak**
-```html
-<li><i class="fas fa-map-marker-alt me-2"></i> Alamat lengkap</li>
-<li><i class="fas fa-phone me-2"></i> (021) 12345678</li>
-<li><i class="fas fa-envelope me-2"></i> email@contoh.com</li>
-```
-Ganti dengan informasi kontak yang valid
-
-### 7. **Mengedit Footer**
-```html
-<p class="mb-0">&copy; 2023 Nama Sekolah/Perusahaan. All rights reserved.</p>
-```
-Ganti dengan informasi copyright yang sesuai
-
 ## 🎨 Kustomisasi Tampilan
 
 ### 1. Mengubah Warna
